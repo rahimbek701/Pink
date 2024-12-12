@@ -1,0 +1,86 @@
+.site-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 110px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.676);
+    display: flex;
+justify-content:space-between; 
+align-items: center;
+z-index: 99;
+
+}
+.link{
+    color: #fff;
+    font-size:20px;
+    text-decoration: none;
+    
+}
+.site-header__right{
+gap:78px; display: flex;
+
+}
+.chegara{
+max-width: 940px;
+width: 100%;
+margin-right:auto ;
+margin-left:auto ;
+display: flex;
+justify-content:space-between;
+align-items: center;
+text-emphasis: none;
+}
+
+.burga{
+display: none;
+
+}
+
+@media only screen and (max-width: 818px){
+    .site-header {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 110px;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.676);
+        display: flex;
+        justify-content:space-between; 
+        align-items: center;
+        z-index: 99;
+        
+    
+    }
+    .link{
+        color: #fff;
+        font-size:20px;
+        text-decoration: none;
+        display: none;
+        
+    }
+    .site-header__right{
+        gap:78px; display: flex;
+    
+    }
+    .chegara{
+        max-width: 818px;
+        width: 100%;
+        margin-right:auto ;
+        margin-left:auto ;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        text-emphasis: none;
+    }
+
+.burga{
+
+display: inline-block;
+background-color: transparent;
+border: none;
+}
+
+
+
+} 
